@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+  }
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+
+.content-1 {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 70px 100px 70px 100px;
+    justify-content: space-between;
+    
+  }
+
+.sidebar {
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.button-1 {
+    margin-top: 10px;
+    display: flex;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 5px;
+  }
+
+.forest {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
