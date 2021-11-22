@@ -30,13 +30,13 @@ a {
     font-size: 18px;
   }
 
+  /* Content 1 */
 .content-1 {
     display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 70px 100px 70px 100px;
     justify-content: space-between;
-    
   }
 
 .sidebar {
@@ -62,6 +62,89 @@ h1 {
 
 .forest {
     width: 800px;
-    height: 300px;
+    height: 180px;
     object-fit: cover;
+}
+
+/* Content 2*/
+.content-2 {
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 30px;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #5f85c2;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding: 0px 100px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.review {
+  background-color: #E5E7EB;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+  padding: 100px;
+}
+
+h4 {
+  margin: 0;
+  text-align: right;
+  font-size: 28px;
+}
+
+/*click banner popup*/
+
+.popup {
+  background-color: #3882F6;
+  margin: 70px 100px;
+  color: white;
+  padding: 40px 80px;
+  border: 5px solid #3882F6;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+margin: 0;
+}
+
+.button-2 {
+  background-color: #3882F6;
+  color: white;
+  border: 2px solid white;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
+  padding: 25px 0px;
 }
